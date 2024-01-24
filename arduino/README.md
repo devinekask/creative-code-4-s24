@@ -30,14 +30,14 @@ We will try to blink an on-board LED on our Arduino.
 int RXLED = 17; // on an Arduino Micro, PIN 17 is an onboard LED pin
 
 void setup() {
-        pinMode(RXLED, OUTPUT);
+  pinMode(RXLED, OUTPUT);
 }
 
 void loop() {
-        digitalWrite(RXLED, HIGH);
-        delay(1000);
-        digitalWrite(RXLED, LOW);
-        delay(1000);
+  digitalWrite(RXLED, HIGH);
+  delay(1000);
+  digitalWrite(RXLED, LOW);
+  delay(1000);
 }
 ```
 
