@@ -97,10 +97,10 @@ To differentiate between development (local) and production (online), you can cr
 NODE_ENV=development
 ```
 
-Add the `node-env` npm package to your project to load this file:
+Add the `dotenv` npm package to your project to load this file:
 
 ```bash
-npm install node-env --save
+npm install dotenv
 ```
 
 And load the file on the very first line of the server's nodejs logic:
